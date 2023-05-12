@@ -1,0 +1,316 @@
+.home {
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.689);
+}
+
+.navbar span {
+    float: left;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::after {
+    position: absolute;
+    content: "";
+    animation: typing 15s infinite;
+    width: 100%;
+    left: 0;
+    
+
+}
+
+.home h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+.social-icon {
+    margin-top: 30px;
+  
+}
+
+.social-icon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   cursor: pointer;
+    color: white;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.About .head p {
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.About .head h2{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.About .head span{
+    font-weight: bold;
+}
+.buton-bg {
+    background: #1c1c1c;
+    color: #eee;
+}
+.buton-bg:hover {
+    background: #eee;
+    color:#1c1c1c ;
+}
+
+span {
+    display: inline-block;
+}
+.hero .buton {
+    margin-top: 20px;
+}
+.buton:hover {
+    background: #1c1c1c;
+    color: #eee;
+}
+.buton {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+span {
+    display: inline-block;
+}
+
+.service-header h3{
+font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+ h6 {
+    margin-bottom: 15px;
+    font-weight: 800 ;
+    font-size: 18px;
+}
+.services .icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+span {
+    display: inline-block;
+}
+.services .icon:hover  {
+    background: #1c1c1c;
+    color: #eee;}
+    .nav-pills .nav-link{
+        color:black;
+        background-color:transparent;
+    }
+    .nav-pills .nav-link.active{
+        color:black;
+        background-color:transparent;
+    }
+    .Portfolio-header h3{
+        font-weight: 900;
+            font-size: 40px;
+            position: relative;
+            display: inline-block;
+            z-index: 4;
+        }
+         h6 {
+            margin-bottom: 15px;
+            font-weight: 800 ;
+            font-size: 18px;
+        }
+        
+.web-layer{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+
+.web-item:hover .web-layer{
+    opacity: 1;
+}
+.web-item{
+    overflow: hidden;
+}
+.web-item:hover img{
+    transform: scale(1.2);
+
+}
+.web-content{
+    position: absolute;
+    top: 100%;
+    transition: all 1s;
+    transform: translateY(-50%);
+    color: #1c1c1c;
+    
+
+}
+.web-content h3{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 15px;
+    color: #1c1c1c;
+}
+.web-item:hover .web-content{
+    top: 50%;
+}
+.client-header h3{
+    font-weight: 900;
+        font-size: 40px;
+        position: relative;
+        display: inline-block;
+        z-index: 4;
+    }
+    .client-item p {
+        word-spacing: 2px;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;}
+        .client-item h3{
+        word-spacing: 2px;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+       
+
+        }
+.carousel-indicators button {
+    width: 20px !important;
+    height: 1px !important;
+    margin: 5px 7px ;
+    background:#748182 !important ;
+
+    transition: opacity .2s ease;
+    border-radius: 50% !important;
+    }
+    .num-content h3{
+        font-weight: 900;
+        font-size: 30px;
+        text-align: center;
+       
+    
+    
+    }
+    .num-content p{
+        font-weight: 600;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+        text-align: center;
+    }
+    .num-content i{
+        font-weight: 900;
+        font-size: 30px;
+    text-align: center;
+        display:block;
+     
+    }
+    .blogs-header h3{
+        font-weight: 900;
+            font-size: 40px;
+            position: relative;
+            display: inline-block;
+            z-index: 4;
+        }
+        .blog-items{
+            overflow: hidden;
+        }
+       img:hover{
+            transform: scale(1.2);
+        }
+        .blog-items img{
+            overflow: hidden;
+        }
+        .contact-header h3{
+            font-weight: 900;
+                font-size: 40px;
+                position: relative;
+                display: inline-block;
+                z-index: 4;
+            }
+            .contact .icon {
+                font-size: 30px;
+                margin-bottom: 20px;
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                background: #f4f4f4;
+                border-radius: 50%;
+                -webkit-transition: all .5s;
+                transition: all .5s;
+                text-align: center;
+            }
+            span {
+                display: inline-block;
+            }
+            .form-control{
+                background-color: #f4f4f4;
+            }
+        footer {
+            background: #1c1c1c;
+            padding: 30px;
+        }
+        footer p{
+            
+            color: #748182;
+        }
+        .contact .icon:hover  {
+            background: #1c1c1c;
+            color: #eee;}
+        .card{
+            overflow: hidden;
+        }
